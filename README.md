@@ -34,12 +34,23 @@ This Library Management System is a robust, high-performance application built i
 - `Student`, `BookTree` - Core classes modeling system behavior
 
 ---
+## 🚀 Algorithmic Excellence
+
+This project leverages a Binary Search Tree (BST) for efficient management of book records, ensuring scalable operations even as the library grows. Book lookup, insertion, and containment checks operate at **O(log n)** time in average cases, while fallback to **O(n)** in worst-case scenarios is handled gracefully by design. Additionally, the system uses **hash mapping (O(1))** for quick indexing of books and an optimized 2D array to track inventory counts with constant-time access.
+
+Together, these components provide a high-performance foundation for real-time library management, ensuring fast execution, low memory overhead, and reliable scalability—hallmarks of algorithmic precision in systems engineering.
+---
+
+## 📌 Final Notes
+
+This system is crafted not just as a demonstration of C++ capabilities, but as a model of what a real-world academic or institutional library engine could achieve with algorithmic rigor and efficient system design. Every decision, from data structures to user flow, is driven by the goal of achieving clarity, scalability, and maintainability in complex environments.
+---
 
 ## 🧪 How to Build and Run
 
-1. **Clone the Repository** or place `tp2.cpp` in your working directory.
+1. **Clone the Repository** or place `program.cpp` in your working directory.
 
 2. **Compile the Program**:
 
    ```bash
-   g++ -std=c++17 -o tp2.exe tp2.cpp
+   g++ -std=c++17 -o program.exe program.cpp
