@@ -53,11 +53,13 @@ This system is crafted not just as a demonstration of C++ capabilities, but as a
 1. Clone the repository or place `program.cpp` in your working directory.
 
 2. Compile the program:
-
+```bash
    g++ program.cpp -o program
+```
 
 3. Run the executable:
 
+```bash
    ./program   (Linux/macOS)  
    .\program.exe (Windows Command Prompt or PowerShell)
 
